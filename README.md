@@ -10,7 +10,9 @@ La información se encuentra disponible para su consulta a través del siguiente
 
 A través de las herramientas de desarrollador del navegador web, identificamos las direcciones de las APIs e identificamos los Request Headers necesarios para hacer las consultas a las APIs. En concreto, identificamos un **authorization bearer** que copiamos y pegamos al script para garantizar respuestas 200 en las diferentes consultas.
 
-Los datos extraídos fueron exportados en formato **CSV -separados por ;-, JSON y .XLSX**
+Los datos extraídos fueron exportados en formato **CSV -separados por ;-, y .XLSX** 
+
+Inicialmente se planteó la posiblidad de disponibilizar los datos en formato JSON sin embargo su tamaño excedía los límites dispuestos por Github por tanto se omitió el cargue de este archivo, aunque en el script se encuentra codigicada la exportación en formato JSON.
 
 
 ## 💻 Requisitos para ejecutar el script
